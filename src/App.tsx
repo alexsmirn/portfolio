@@ -46,6 +46,8 @@ const Card = styled.div`
   gap: 10px;
 
   font-family: Inter, Arial, sans-serif;
+  
+  user-select: none;
 `
 
 const Headline = styled.h1`
@@ -89,6 +91,12 @@ const Button = styled.button<ButtonType>`
   color: white;
   font-size: 10px;
   font-weight: 700;
+  transition: transform 0.3s;
+  
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
   
   ${props => props.outlined && css<ButtonType>`
     background-color: transparent;
