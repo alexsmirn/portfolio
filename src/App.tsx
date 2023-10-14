@@ -13,7 +13,7 @@ function App() {
                   <Headline>Headline</Headline>
                   <Paragraph>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Paragraph>
                   <ButtonWrapper>
-                      <Button>See more</Button>
+                      <Button>Seefff more</Button>
                       <Button outlined>Save</Button>
                   </ButtonWrapper>
               </CardContent>
